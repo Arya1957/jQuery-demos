@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    color: #666;
+    margin: 30px auto;
+    width: 764px;
+}
+
+.layout ul, .layout li {
+    list-style: none;
+}
+
+.layout h2 {
+    margin: 15px 0;
+}
+
+.layout a {
+    text-decoration: none;
+    color: #666;
+}
+
+.layout .lists {
+    margin-right: -20px;
+    margin-bottom: -20px;
+    font-size: 14px;
+}
+
+.layout .lists > li {
+    float: left;
+    width: 240px;
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.layout .lists .cover {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.layout .lists .cover a {
+    color: #bd1212;
+    padding: 8px 16px;
+    border: 1px solid #bd1212;
+    border-radius: 3px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* CSS 实现遮罩效果
+.layout .lists li:hover .cover {;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+
+.layout .lists li .price {
+    color: #bd1212;
+}
+
+.layout .addBtn {
+    font-size: 14px;
+    color: #bd1212;
+    border: 1px solid #bd1212;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}

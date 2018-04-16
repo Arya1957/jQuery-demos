@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ct {
+    margin: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+}
+
+.ct ul, .ct li {
+    list-style: none;
+}
+
+.ct a {
+    text-decoration: none;
+    color: #666;
+}
+
+.ct .tab-category {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    float: left;
+}
+
+.ct .tab-category > li {
+    float: left;
+    padding: 8px 0;
+}
+.ct .tab-category > li a{
+    border-right: 1px solid #ccc;
+    padding: 0 16px;
+}
+.ct .tab-category > li.active{
+    background: #ccc;
+}
+
+.ct .tab-category > li:last-child a {
+    border-right: none;
+}
+
+.ct > .panels {
+    width: 762px;
+    border: 1px solid #ccc;
+}
+.ct .panels > .panel{
+   display: none;
+}
+.ct .panels > .panel.active{
+    display: block;
+}
+.ct .panels > .panel > .lists {
+    margin-bottom: -20px;
+    margin-right: -20px;
+
+}
+
+.ct .panels > .panel > .lists > li {
+    border: 1px solid #eee;
+    width: 240px;
+    float: left;
+    position: relative;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.ct .panels > .panel > .lists .cover {
+    position: absolute;
+    background: rgba(0,0,0,0.2); /* 设置cover的背景色半透明而不是cover半透明 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    /* border: 1px solid red; */
+}
+
+.ct .panels > .panel > .lists .cover > .btn {
+    border: 1px solid #c81623;
+    color: #c81623;
+    padding: 8px 16px;
+    background: #f7f7f7;
+    border-radius: 3px;
+}
+
+.ct .panels > .panel > .lists > li:hover .cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct .panels > .panel > .lists > li .intro{
+    text-align: justify;
+}
+.ct .panels > .panel > .lists > li .price{
+    text-align: left;
+    color: #c81623;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}

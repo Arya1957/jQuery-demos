@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/*给整个导航模块的父容器加一个外边距*/
+.nav {
+    margin: 10px;
+}
+/* 导航模块通用样式，ul li a 等 */
+.nav ul,.nav li{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+}
+
+/*主导航栏样式*/
+.category {
+    position: relative;
+    width: 200px;
+    background: #c7171e;
+    border-bottom: 1px dotted #de272e;
+
+}
+
+
+.category>.cate-title,.category>.icon {
+    color: #fff;
+    font-size: 14px;
+}
+
+.category>.cate-title{
+    display: block; /*行内元素上下padding不会生效*/
+    padding: 10px;
+    margin: 0 10px;
+}
+.category>.icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/* 子列表样式 */
+.subcategory{
+    width: 210px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    display: none;
+}
+.subcategory li{
+    float: left;
+    width: 55px;
+    padding: 10px 20px;
+}
+.subcategory a{
+    color: #444;
+}
+
+.active {
+    display: block;
+}

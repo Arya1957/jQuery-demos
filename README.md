@@ -9,3 +9,5 @@
 [预览](https://arya1957.github.io/jQuery-demos/demo3/index.html)  </br>
 - Demo4： 左右切换
 [预览](https://arya1957.github.io/jQuery-demos/demo4/index.html) </br>
+- Demo5： 加载更多
+[预览](https://arya1957.github.io/jQuery-demos/demo4/static/index.html) </br>

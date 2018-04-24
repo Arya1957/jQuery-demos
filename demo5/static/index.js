@@ -20,7 +20,7 @@ $btn.on('click', function (e) {
         return;  // 如果正在加载数据，就什么都不做
     }
     isLoading = true;
-    $btn.html('<img src="loading.gif"/>');
+    $btn.html('<img src="https://xiedaimala.com/s/36"/>');
     $.ajax({
         url: '/loadmore',
         method: 'GET',

@@ -12,6 +12,6 @@
 - Demo5： 加载更多
 [预览](https://arya1957.github.io/jQuery-demos/demo5/static/index.html) </br>
 Demo6: 当窗口滚动时，判断函数是否出现，当且仅当第一次出现时在控制台打印true
-[预览](https://arya1957.github.io/jQuery-demos/demo6/index.html)
+[预览](https://arya1957.github.io/jQuery-demos/demo6/index.html)  </br>
 Demo7: 图片懒加载
-[预览](https://arya1957.github.io/jQuery-demos/demo7/index.html)
+[预览](https://arya1957.github.io/jQuery-demos/demo7/index.html)  </br>

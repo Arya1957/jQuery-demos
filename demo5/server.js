@@ -41,4 +41,8 @@ var server = http.createServer(function(req,res){
 
 });
 
+<<<<<<< HEAD
 server.listen(8080);
+=======
+server.listen(8080);
+>>>>>>> gh-pages

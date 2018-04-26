@@ -20,7 +20,11 @@ $btn.on('click', function (e) {
         return;  // 如果正在加载数据，就什么都不做
     }
     isLoading = true;
+<<<<<<< HEAD
+    $btn.html('<img src="loading.gif"/>');
+=======
     $btn.html('<img src="https://xiedaimala.com/s/36"/>');
+>>>>>>> gh-pages
     $.ajax({
         url: '/loadmore',
         method: 'GET',
@@ -59,4 +63,8 @@ $btn.on('click', function (e) {
             console.log('data[i]:'+ data[i]);
             $ct.append('<li>'+data[i]+ '</li>')
         }
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> gh-pages

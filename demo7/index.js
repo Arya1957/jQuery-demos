@@ -29,9 +29,14 @@ $(window).on('scroll', function () {
 
 function lazyLoad() {
     $('.ct img').each(function () {
+<<<<<<< HEAD
+        if (checkShow($(this)) && !isloaded($(this))) {
+            loadImg($(this))
+=======
         if (checkShow($(this)) && !isloaded($(this)) ) {
             loadImg($(this));
             console.log($(this).text()+'true')
+>>>>>>> gh-pages
         }
     });
 }

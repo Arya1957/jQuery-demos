@@ -63,8 +63,5 @@ $btn.on('click', function (e) {
             console.log('data[i]:'+ data[i]);
             $ct.append('<li>'+data[i]+ '</li>')
         }
-<<<<<<< HEAD
     }
-=======
-    }
->>>>>>> gh-pages
+

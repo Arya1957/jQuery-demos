@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ct ul, .ct li{
+    list-style: none;
+}
+
+
+.ct {
+    width: 600px;
+    margin: 30px auto;
+}
+
+.news a {
+    text-decoration: none;
+    color: #585656;
+}
+.news li{
+    margin-top: 20px;
+}
+
+.news li img{
+    float: left;
+    width: 80px;
+}
+
+.news li h3{
+    margin-left: 95px;
+}
+.news li p{
+    margin-left: 95px;
+    white-space: nowrap;   /*禁止文字自动转行*/
+    overflow: hidden;      /*溢出后隐藏*/
+    text-overflow: ellipsis;  /*文本溢出后加省略号*/
+    margin-top: 10px;
+}
+
+#load-more{
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}

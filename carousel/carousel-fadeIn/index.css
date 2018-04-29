@@ -16,7 +16,6 @@
 }
 
 .carousel-fadein .img-ct {
-    width: 1280px;
     position: absolute;
 }
 
@@ -74,6 +73,4 @@
     background: none;
 }
 
-.btn{
-  margin: 15px 8px;
-}
+

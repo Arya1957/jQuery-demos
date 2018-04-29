@@ -52,8 +52,7 @@ function next() {
 
 function setBullet(index){
     $bullet.removeClass('active')
-           .eq(index)
-           .addClass('active');
+           .eq(index).addClass('active');
 }
 
 

@@ -9,6 +9,7 @@ var isAnimate = false;
 var $ct = $('.carousel-fadein');
 
 play(0);
+autoPlay();
 
 $pre.on('click', function () {
     pre()
@@ -36,8 +37,8 @@ function play(idx) {
     $imgs.eq(curIndex).fadeOut(800);
     $imgs.eq(idx).fadeIn(800, function () {
         isAnimate = false;
-        setBullet(idx)
     });
+    setBullet(idx);
     curIndex = idx;
     console.log('curIndex' + curIndex);
 }
@@ -47,23 +48,20 @@ function setBullet($index) {
     $bullet.eq($index).addClass('active')
 }
 
-var clock ;
-function autoPlay(){
-   clock = setInterval(function(){
+var clock;
+
+function autoPlay() {
+    clock = setInterval(function () {
         next()
-    },1500)
+    }, 3000)
 }
 
-function stopPlay(){
-    clearInterval(clock)
-}
-$('.autoPlay').click(function(){
-    autoPlay();
-    $ct.mouseenter(function(){
-        stopPlay()   // 鼠标进入的时候停止轮播
-    }).mouseleave(function(){
-        autoPlay()
-    });
+
+$ct.on('mouseenter', function () {
+    clearInterval(clock)   // 鼠标进入的时候停止轮播
 });
-$('.stopPlay').click(stopPlay);
+$ct.on('mouseleave', function () {
+    autoPlay()
+});
+
 

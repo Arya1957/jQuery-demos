@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel-fadein {
+    width: 320px;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+}
+
+.carousel-fadein ul, .carousel-fadein li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-fadein .img-ct {
+    width: 1280px;
+    position: absolute;
+}
+
+.carousel-fadein .img-ct li {
+    display: none;
+}
+
+.carousel-fadein .img-ct li img {
+    width: 320px;
+    height: 200px;
+}
+
+.carousel-fadein .arrow {
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.carousel-fadein .arrow:hover {
+    opacity: 0.7;
+}
+
+.carousel-fadein .arrow.pre {
+    left: 10px;
+}
+.carousel-fadein .arrow.next {
+    right: 10px;
+}
+
+.carousel-fadein .bullets {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+}
+
+.carousel-fadein .bullets > li {
+    display: inline-block;
+    border-radius: 10px;
+    width: 30px;
+    height: 6px;
+    background: #f3f1f1;
+}
+
+.carousel-fadein .bullets > li.active {
+    border: 1px solid #f3f1f1;
+    background: none;
+}
+
+.btn{
+  margin: 15px 8px;
+}

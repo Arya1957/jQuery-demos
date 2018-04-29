@@ -17,3 +17,8 @@
 [预览](https://arya1957.github.io/jQuery-demos/demo7/index.html)  </br>
 - loadnews: 新闻懒加载
 [地址](https://github.com/Arya1957/jQuery-demos/tree/master/loadnews)  </br>
+- carousel: jQuery 轮播图    </br>
+[轮播 ](https://arya1957.github.io/jQuery-demos/carousel/carousel-slide/index.html)  </br>
+[渐变轮播 ](https://arya1957.github.io/jQuery-demos/carousel/carousel-fadeIn/index.html)  </br>
+
+
